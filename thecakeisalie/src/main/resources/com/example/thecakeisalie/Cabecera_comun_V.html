@@ -6,16 +6,68 @@
   <meta name="vaadin-version" content="8.0.5">
  </head>
  <body>
-  <vaadin-horizontal-layout responsive width-full height="188px" margin>
-   <vaadin-label style-name="bold colored huge" responsive plain-text :middle>
-     THE CAKE IS A LIE 
-   </vaadin-label>
-   <vaadin-vertical-layout responsive size-auto margin="false" :bottom :right>
-    <vaadin-text-field icon="fonticon://Vaadin-Icons/e805" style-name="inline-icon" responsive width="250px" :middle :center></vaadin-text-field>
-    <vaadin-button icon="fonticon://Vaadin-Icons/e80d" style-name="primary" responsive plain-text :bottom :right>
-      Acceso clientes 
-    </vaadin-button>
-   </vaadin-vertical-layout>
-  </vaadin-horizontal-layout>
+  <vaadin-absolute-layout>
+   <vaadin-horizontal-layout style-name="colorFondo" responsive width-full height="15%" margin>
+    <vaadin-label style-name="bold huge colored" responsive plain-text :middle>
+      THE CAKE IS A LIE 
+    </vaadin-label>
+    <vaadin-vertical-layout responsive size-auto margin="false" :bottom :right>
+     <vaadin-text-field icon="fonticon://Vaadin-Icons/e805" style-name="inline-icon" responsive width="250px" :middle :center></vaadin-text-field>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e80d" style-name="primary" responsive plain-text :bottom :right>
+       Acceso clientes 
+     </vaadin-button>
+    </vaadin-vertical-layout>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout size-full margin :top="135px" :left="0px">
+    <vaadin-vertical-layout size-full>
+     <vaadin-vertical-layout style-name="colorOfertas" id="objeto1" width="70%" height="70%" :middle :right>
+      <vaadin-label style-name="huge bold" plain-text :center>
+        TELEFONÍA MÓVIL 
+      </vaadin-label>
+      <vaadin-label plain-text :center>
+        ¡No te pierdas nuestras nuevas ofertas! 
+      </vaadin-label>
+      <vaadin-button plain-text :middle :right>
+        Saber más ... 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout style-name="colorOfertas" id="objeto2" width="70%" height="70%" :middle :right>
+      <vaadin-label style-name="huge bold" plain-text :center>
+        TELEFONÍA FIJA 
+      </vaadin-label>
+      <vaadin-label plain-text :center>
+        ¡No te pierdas nuestras nuevas ofertas! 
+      </vaadin-label>
+      <vaadin-button style-name="friendly" plain-text :middle :right>
+        Saber más ... 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout size-full>
+     <vaadin-vertical-layout style-name="colorOfertas" id="objeto3" width="70%" height="70%" :middle>
+      <vaadin-label style-name="huge bold colorBlanco" plain-text :center>
+        TELEVISIÓN 
+      </vaadin-label>
+      <vaadin-label plain-text :center>
+        ¡No te pierdas nuestras nuevas ofertas! 
+      </vaadin-label>
+      <vaadin-button style-name="friendly" plain-text :middle :right>
+        Saber más ... 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout style-name="colorOfertas" id="objeto4" width="70%" height="70%" :middle>
+      <vaadin-label style-name="huge bold" plain-text :center>
+        FIBRA ÓPTICA 
+      </vaadin-label>
+      <vaadin-label plain-text :center>
+        ¡No te pierdas nuestras nuevas ofertas! 
+      </vaadin-label>
+      <vaadin-button style-name="friendly" plain-text :middle :right>
+        Saber más ... 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+   </vaadin-horizontal-layout>
+  </vaadin-absolute-layout>
  </body>
 </html>

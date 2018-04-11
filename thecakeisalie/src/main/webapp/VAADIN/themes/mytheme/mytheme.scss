@@ -35,4 +35,18 @@
   @include valo;
 
   // Insert your own theme rules here
+
+  .colorFondo{
+    background-color: lightgrey;
+    border-bottom-color: steelblue;
+  }
+
+  .colorOfertas{
+    background-color: steelblue;
+  }
+
+  .colorBlanco{
+    text-decoration-color: white;
+  }
+
 }
